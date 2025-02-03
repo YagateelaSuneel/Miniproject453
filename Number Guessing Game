@@ -32,6 +32,28 @@ int main() {
 
     return 0;
 }
+
+
+output :
+Welcome to the Number Guessing Game!
+Guess the number between 1 and 100
+Enter your guess: 88
+Too high! Try again.
+Enter your guess: 60
+Too high! Try again.
+Enter your guess: 40
+Too high! Try again.
+Enter your guess: 20
+Too high! Try again.
+Enter your guess: 11
+Too low! Try again.
+Enter your guess: 16
+Too low! Try again.
+Enter your guess: 18
+Too low! Try again.
+Enter your guess: 19
+Congratulations! You guessed the number in 8 attempts.
+
 Explanation:
 Random Number: The rand() function is used to generate a random number between 1 and 100.
 Game Loop: The user is prompted to keep guessing until they guess the correct number, and feedback is provided based on the guess.
